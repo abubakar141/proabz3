@@ -1,0 +1,365 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right-section{
+    background: rgba(248, 248, 251, 1);
+
+}
+
+.box {
+    padding-top: 10rem !important;
+}
+
+.textt1 {
+
+    font-size: 23px !important;
+    font-weight: 550 !important;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.textt2 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-align: center;
+
+}
+
+.overlayImage {
+    width: 427.62px;
+    height: 327px;
+    opacity: 1;
+}
+
+.text1 {
+    font-size: 23px !important;
+    font-weight: 500;
+    line-height: 33.57px;
+    text-align: left;
+
+}
+
+.text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-align: left;
+}
+
+
+
+.input {
+    width: 100%;
+    height: 29px !important;
+    padding: 3px;
+    border: 1px solid rgba(177, 183, 214, 1);
+    border-radius: 4px;
+}
+
+.hi {
+    font-size: 10px !important;
+
+
+}
+
+.logo {
+    z-index: 100;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+label {
+    font-size: 11px !important;
+}
+
+.button {
+    padding: 6px 20px !important;
+    background: rgba(206, 214, 247, 1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box {
+    padding-top: 5rem !important;
+    font-size: 0.8rem;
+
+}
+
+.container {
+    margin-top: 0.5rem;
+}
+
+.label {
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    padding: 0.2rem;
+}
+
+.button {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+@media (max-height: 600px) {
+    .box {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .margin-l {
+        margin-left: 10px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .right-section {
+        display: none !important;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .logo-hide {
+        display:flex !important;
+    }
+
+    .box {
+        justify-content: center !important;
+        justify-items: center !important;
+        justify-self: center !important;
+    }
+}
+
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.class-container {
+  border: solid 1px gray;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  width: calc(50% - 20px);
+  height: 150px;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.class-container:hover {
+  border-color: blue;
+}
+
+.class-container img {
+  margin-right: 10px;
+  width: 78px;
+  height: 76px;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.class-container .checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 768px) {
+  .class-container {
+    width: calc(100% - 20px);
+    border: none;
+    justify-content: space-between;
+  }
+
+  .responsive-image {
+    display: none;
+  }
+
+  .text {
+    margin: 0;
+  }
+
+  .checkbox {
+    height: 25px;
+    width: 25px;
+  }
+}
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.class-container {
+  border: solid 1px gray;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  width: calc(50% - 20px);
+  height: 150px;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.class-container:hover {
+  border-color: blue;
+}
+
+.class-container img {
+  margin-right: 10px;
+  width: 78px;
+  height: 76px;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.class-container .checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 768px) {
+  .class-container {
+    width: calc(100% - 20px);
+    border: none;
+    justify-content: space-between;
+  }
+
+  .responsive-image {
+    display: none;
+  }
+
+  .text {
+    margin: 0;
+  }
+
+  .checkbox {
+    height: 25px;
+    width: 25px;
+  }
+
+  .mt-3 {
+    text-align: center;
+  }
+}
+.parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .class-container {
+    border: solid 1px gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    width: calc(30% - 20px);
+    height: 150px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .class-container:hover {
+    border-color: blue;
+  }
+  
+  .class-container img {
+    margin-right: 10px;
+    width: 78px;
+    height: 76px;
+  }
+  
+  .text {
+    flex-grow: 1;
+  }
+  
+  .class-container .checkbox {
+    height: 20px;
+    width: 20px;
+  }
+  .responsive {
+    display:  none;
+   }
+  @media (max-width: 768px) {
+    .class-container {
+      width: calc(80% - 20px);
+      height: 50%;
+      border: none;
+      justify-content: space-between;
+    }
+  
+    .responsive-image {
+      display: none;
+    }
+  
+    .text {
+      margin: 0;
+    }
+  
+    .checkbox {
+      height: 25px;
+      width: 25px;
+    
+    }
+  
+    .mt-3 {
+      text-align: center;
+    }
+  
+    .text-center {
+      text-align: center;
+    }
+     /* .responsive {
+    display: flex;
+    width: 200%;
+    margin-top: 5%;
+    font-weight: bolder;
+    background: black;
+    height: 5%;
+   } */
+  }
